@@ -31,11 +31,11 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "Chiku-PIKU"
-repo = "https://github.com/Chiku-JAAT/Chiku-ban"
+Owner = "Chiku"
+repo = "https://github.com/subhichiku/Chiku-ban"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/music_by_piku"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("Support", "https://t.me/II_BROKEN_X_ANGEL_II"), Button.url("Repo", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
