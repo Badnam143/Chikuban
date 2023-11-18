@@ -81,7 +81,7 @@ async def start(event):
         )
     if event.sender.id not in SEXY:
         await event.reply(
-            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/Chiku-JAAT/Chiku-ban)",
+            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/subhichiku/Chiku-ban)",
             link_preview=False,
         )       
 
